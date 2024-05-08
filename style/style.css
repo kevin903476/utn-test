@@ -286,6 +286,7 @@
   width: 90%;
   font-size: 18px;
   margin-bottom: 25px;
+  line-height: 30px;
 }
 
 
@@ -327,6 +328,41 @@
 
 /*_____ final contenido  _____*/
 
+/*_____ inicio habilidades  _____*/
+
+
+
+.skills-box{
+  text-align: left;
+  margin-top: 4%;
+  width: 90%;
+}
+
+.skill{
+  font-size: 23px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+#skill-desc{
+  padding-left: 20px;
+  
+}
+#skill-number{
+  background-color: #2499c7;
+  color: white;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+
+
+/*_____ final habilidades  _____*/
 
 /*_____ inicio contenido  plan estudios_____*/
 
@@ -414,6 +450,33 @@ th {
 
 /*_____ final contenido  plan estudios  _____*/
 
+/*_____ inicio contenido  stats  _____*/
+
+
+#insercion, #porcentaje-insercion {
+  display: inline; /* Mostrar el strong en línea */
+  margin-right: 5px; /* Espacio a la derecha del strong */
+  
+}
+.stats, .stats p{
+  text-align: center;
+  width: 100%;
+
+}
+.stats{
+  margin-top: 10%;
+}
+.stats h3, .porcentaje{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #006691;
+  font-size: 26px;
+}
+
+
+
+/*_____ final contenido  stats  _____*/
+
 
 
 /* inicio cards de asesoria */
@@ -474,6 +537,19 @@ th {
   
 /* final cards de asesoria */
 
+
+/*_____ Inicio contenido test _____*/
+
+.container-test{
+  background-color: #2499c7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#white-text{
+  color: aliceblue;
+}
+/*_____ Final contenido test _____*/
 
 /*_____ Inicio contenido cards _____*/
 
@@ -764,13 +840,13 @@ background-color: #006691;
 	background-color: #efad4a;
 }
 
-.waves-footer {
+.waves-position {
   
   width: 100%;
   margin-bottom: -10px;
   
 }
-.waves-footer img {
+.waves-position img {
   width: 100%;
 }
 
